@@ -1,0 +1,195 @@
+            a:hover {
+                color: #f8f9fa;
+                text-decoration: none;
+            }
+            
+            .icon {
+                height: 90px;
+                width: 90px;
+                border: 1px solid white;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                margin: 50px;
+                font-size: 54px;
+                color: white;
+                position: relative;
+            }
+            /* First Row */
+            
+            .icon1 {
+                height: 90px;
+                width: 90px;
+                border: 1px solid white;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                margin: 50px;
+                font-size: 54px;
+                color: white;
+            }
+            
+            .icon1:hover {
+                background: white;
+                color: #f06060;
+                transition: 0.4s;
+            }
+            /* Second Row */
+            
+            .icon2 {
+                height: 90px;
+                width: 90px;
+                /* border: 1px solid white;
+                border-radius: 50%; */
+                display: inline-block;
+                text-align: center;
+                margin: 50px;
+                font-size: 54px;
+                color: white;
+                position: relative;
+            }
+            
+            .icon2::after {
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                border: 3px dashed white;
+                border-radius: 50%;
+            }
+            
+            .icon2:hover:after {
+                animation: second 10s linear infinite;
+            }
+            
+            @keyframes second {
+                0% {
+                    transform: rotate(0);
+                }
+                0% {
+                    transform: rotate(360deg);
+                }
+            }
+            /* Third Row */
+            
+            .icon3 {
+                height: 90px;
+                width: 90px;
+                border: 1px solid white;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                font-size: 54px;
+                color: white;
+                position: relative;
+                margin-top: 4px;
+            }
+            
+            .borderw {
+                height: 100px;
+                width: 100px;
+                border: 1px transparent;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                margin: 50px;
+                font-size: 54px;
+                color: white;
+                position: relative;
+            }
+            
+            .icon3:hover {
+                background-color: white;
+                color: #eea303;
+                transform: scale(0.9);
+                transition: 0.6s;
+            }
+            
+            .borderw:hover {
+                border: 2px solid white;
+                transition: .4s;
+            }
+            /* fourth row */
+            
+            .icon4 {
+                height: 90px;
+                width: 90px;
+                border: 1px solid white;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                font-size: 54px;
+                color: white;
+                position: relative;
+                margin-top: 4px;
+            }
+            
+            .borderw4 {
+                height: 100px;
+                width: 100px;
+                border: 1px transparent;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                margin: 50px;
+                font-size: 54px;
+                color: white;
+                position: relative;
+            }
+            
+            .icon4:hover {
+                background-color: white;
+                color: #0e83cd;
+                transform: scale(1);
+                transition: 0.6s;
+            }
+            
+            .borderw4:hover {
+                border: 4px solid white;
+                height: 107px;
+                width: 107px;
+                /* margin-top: 25px; */
+                transition: .4s;
+            }
+            /* fifth row */
+            
+            .icon5 {
+                height: 90px;
+                width: 90px;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                font-size: 54px;
+                color: white;
+                position: relative;
+                margin-top: 4px;
+            }
+            
+            .borderw5 {
+                height: 100px;
+                width: 100px;
+                border: 1px solid white;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                margin: 50px;
+                font-size: 54px;
+                color: white;
+                position: relative;
+            }
+            
+            .icon5:hover {
+                animation: second 4s reverse infinite;
+            }
+            
+            @keyframes second {
+                0% {
+                    transform: rotate(0);
+                }
+                0% {
+                    transform: rotate(360deg);
+                }
+            }
